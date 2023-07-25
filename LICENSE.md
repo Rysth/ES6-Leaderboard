@@ -1,15 +1,15 @@
 ## Copyright 2023, JOHN ANDRÉS PALACIOS TUTIVEN
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this **PROJECT-NAME** and associated
-documentation files, to deal in the **PROJECT-NAME** without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the **PROJECT-NAME**, and to permit
-persons to whom the **PROJECT-NAME** is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this **Leaderboard Application** and associated
+documentation files, to deal in the **Leaderboard Application** without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the **Leaderboard Application**, and to permit
+persons to whom the **Leaderboard Application** is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
-**PROJECT-NAME**.
+**Leaderboard Application**.
 
-THE **PROJECT-NAME** IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+THE **Leaderboard Application** IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
 TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
-OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE **PROJECT-NAME** OR THE USE OR OTHER DEALINGS IN THE
-**PROJECT-NAME**.
+OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE **Leaderboard Application** OR THE USE OR OTHER DEALINGS IN THE
+**Leaderboard Application**.
