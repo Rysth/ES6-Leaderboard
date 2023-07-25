@@ -68,8 +68,8 @@ To get a local copy up and running, follow these steps.
 
 To get a local copy up and running, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/RysthCraft/ES6-Learderboard.git`
-2. Navigate to the project directory: `cd ES6-Learderboard`
+1. Clone the repository: `git clone https://github.com/RysthCraft/ES6-Leaderboard.git`
+2. Navigate to the project directory: `cd ES6-Leaderboard`
 3. Install the dependencies: `npm install`
 4. Build the project: `npm run build`
 5. Open `index.html` in your web browser.
