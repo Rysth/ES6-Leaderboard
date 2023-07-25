@@ -3,7 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RysthCraft | Webpack Template</title>
+    <title>RysthCraft | ES6 | Leaderboard Application</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="h1">Leaderboard</h1>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="grid grid-two-cols">
+          <section class="section">
+            <header class="header">
+              <h2 class="h2">Recent Scores</h2>
+              <button class="btn btn-primary" type="button">Refresh</button>
+            </header>
+            <div class="content">
+              <ul class="list">
+                <li class="list-item">Name: 100</li>
+                <li class="list-item">Name: 20</li>
+                <li class="list-item">Name: 50</li>
+                <li class="list-item">Name: 78</li>
+                <li class="list-item">Name: 125</li>
+                <li class="list-item">Name: 77</li>
+                <li class="list-item">Name: 42</li>
+              </ul>
+            </div>
+          </section>
+          <section class="section">
+            <header class="header">Add your Score</header>
+          </section>
+          <form action="" class="form content">
+            <div class="form-item">
+              <label for="name" hidden></label>
+              <input type="text" placeholder="Your name" name="name" id="name" />
+            </div>
+            <div class="form-item">
+              <label for="score" hidden></label>
+              <input type="text" placeholder="Your score" name="score" id="score" />
+            </div>
+            <div class="form-item">
+              <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
