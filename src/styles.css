@@ -1,3 +1,8 @@
+:root {
+  --CL-neutral-black: #000000;
+  --CL-neutral-gray: #d8d8d8;
+}
+
 *,
 *::after,
 *::before {
@@ -7,4 +12,144 @@
 html,
 body {
   height: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+button,
+input,
+label {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Containers */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.container-sm {
+  max-width: 1200px;
+}
+
+/* Section */
+
+.section {
+  padding: 1em 0;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+/* Titles */
+.h1 {
+  font-size: 2.5rem;
+}
+
+.h2 {
+  font-size: 1.75rem;
+}
+
+/* Buttons */
+
+.btn {
+  padding: 0.5em;
+  width: 6em;
+  font-size: 1rem;
+  border-radius: 0.5em;
+  border: none;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.btn-primary {
+  outline: 1px solid var(--CL-neutral-black);
+  box-shadow: 4px 4px 0px var(--CL-neutral-black);
+}
+
+.btn-primary:hover {
+  box-shadow: 4px 4px 5px var(--CL-neutral-black);
+}
+
+.btn-submit {
+  float: right;
+}
+
+/* Borders */
+.border-1 {
+  border: 3px solid var(--CL-neutral-black);
+}
+
+/* List */
+.content {
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  margin: 0;
+}
+
+.list-item {
+  padding: 0.5em 1em;
+  font-size: 1rem;
+}
+
+.list-item-accent {
+  background-color: var(--CL-neutral-gray);
+}
+
+/* Form */
+.form {
+  display: grid;
+  gap: 1em;
+}
+
+.form-item {
+  max-width: 60em;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 0.5em 1em;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .grid-two-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Titles */
+  .h1 {
+    font-size: 3rem;
+  }
+
+  .h2 {
+    font-size: 2rem;
+  }
+
+  /* Grid */
+  .gap-3 {
+    gap: 3em;
+  }
 }
