@@ -19,9 +19,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 ES6 Awesome Books App <a name="about-project"></a>
+# 📖 ES6 Leaderboard Application<a name="about-project"></a>
 
-**ES6 Awesome Books App** description....
+**ES6 Leaderboard Application** The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3). Built with HTML, CSS, and JavaScript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -32,7 +32,7 @@
   <ul>
     <li><a href="https://www.w3schools.com/html/">HTML</a></li>
     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
-    <li><a href="https://www.w3schools.com/js/">JavaScript ES6</a></li>
+    <li><a href="https://www.w3schools.com/js/">JavaScript</a></li>
   </ul>
 </details>
 
@@ -40,10 +40,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Add new books with their title and author.
-- Display a list of saved books.
-- Remove books from the list.
-- Store book data using `localStorage`.
+- Add new names with their score.
+- Display a list of people.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -58,7 +56,7 @@
 
 ### Take a Look
 
-- [Live Demo Link](https://rysth.github.io/ES6-Awesome-Books/)
+- [Live Demo Link](https://rysth.github.io/ES6-Learderboard/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,8 +68,8 @@ To get a local copy up and running, follow these steps.
 
 To get a local copy up and running, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/RysthCraft/ES6-Awesome-Books.git`
-2. Navigate to the project directory: `cd ES6-Awesome-Books`
+1. Clone the repository: `git clone https://github.com/RysthCraft/ES6-Learderboard.git`
+2. Navigate to the project directory: `cd ES6-Learderboard`
 3. Install the dependencies: `npm install`
 4. Build the project: `npm run build`
 5. Open `index.html` in your web browser.
