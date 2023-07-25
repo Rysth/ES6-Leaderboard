@@ -1,5 +1,5 @@
 :root {
-  --CL-neutral-black: #000000;
+  --CL-neutral-black: #000;
   --CL-neutral-gray: #d8d8d8;
 }
 
@@ -81,7 +81,7 @@ label {
 
 .btn-primary {
   outline: 1px solid var(--CL-neutral-black);
-  box-shadow: 4px 4px 0px var(--CL-neutral-black);
+  box-shadow: 4px 4px 0 var(--CL-neutral-black);
 }
 
 .btn-primary:hover {
