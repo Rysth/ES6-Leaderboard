@@ -3,7 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RysthCraft | Webpack Template</title>
+    <title>RysthCraft | ES6 | Leaderboard Application</title>
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="h1">Leaderboard</h1>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container container-sm">
+        <div class="grid grid-two-cols gap-3">
+          <section class="section">
+            <header class="header flex align-center justify-between">
+              <h2 class="h2">Recent Scores</h2>
+              <button class="btn btn-primary" type="button">Refresh</button>
+            </header>
+            <div class="content border-1">
+              <ul class="list">
+                <li class="list-item">Name: 100</li>
+                <li class="list-item list-item-accent">Name: 20</li>
+                <li class="list-item">Name: 50</li>
+                <li class="list-item list-item-accent">Name: 78</li>
+                <li class="list-item">Name: 125</li>
+                <li class="list-item list-item-accent">Name: 77</li>
+                <li class="list-item">Name: 42</li>
+              </ul>
+            </div>
+          </section>
+          <section class="section">
+            <header class="header">
+              <h2 class="h2">Add your Score</h2>
+            </header>
+            <form action="" class="form">
+              <div class="form-item">
+                <label for="name" hidden>Name</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  placeholder="Your name"
+                  name="name"
+                  id="name"
+                />
+              </div>
+              <div class="form-item">
+                <label for="score" hidden>Score</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  placeholder="Your score"
+                  name="score"
+                  id="score"
+                />
+              </div>
+              <div class="form-item">
+                <button class="btn btn-primary btn-submit" type="submit">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./index.js"></script>
+  </body>
 </html>
