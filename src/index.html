@@ -18,25 +18,19 @@
           <section class="section">
             <header class="header flex align-center justify-between">
               <h2 class="h2">Recent Scores</h2>
-              <button class="btn btn-primary" type="button">Refresh</button>
+              <button class="btn btn-primary" type="button" id="btn-refresh">
+                Refresh
+              </button>
             </header>
             <div class="content border-1">
-              <ul class="list">
-                <li class="list-item">Name: 100</li>
-                <li class="list-item list-item-accent">Name: 20</li>
-                <li class="list-item">Name: 50</li>
-                <li class="list-item list-item-accent">Name: 78</li>
-                <li class="list-item">Name: 125</li>
-                <li class="list-item list-item-accent">Name: 77</li>
-                <li class="list-item">Name: 42</li>
-              </ul>
+              <ul class="list" id="user-list"></ul>
             </div>
           </section>
           <section class="section">
             <header class="header">
               <h2 class="h2">Add your Score</h2>
             </header>
-            <form action="" class="form">
+            <form id="form" class="form">
               <div class="form-item">
                 <label for="name" hidden>Name</label>
                 <input
@@ -45,20 +39,26 @@
                   placeholder="Your name"
                   name="name"
                   id="name"
+                  required
                 />
               </div>
               <div class="form-item">
                 <label for="score" hidden>Score</label>
                 <input
                   class="form-input"
-                  type="text"
+                  type="number"
                   placeholder="Your score"
                   name="score"
                   id="score"
+                  required
                 />
               </div>
               <div class="form-item">
-                <button class="btn btn-primary btn-submit" type="submit">
+                <button
+                  id="btn-submit"
+                  class="btn btn-primary btn-submit"
+                  type="submit"
+                >
                   Submit
                 </button>
               </div>
