@@ -1,7 +1,5 @@
 const API = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
 
-const gameData = 'My Awesome Game';
-
 const createGame = async (gameName) => {
   try {
     const response = await fetch(`${API}/games`, {
@@ -17,11 +15,28 @@ const createGame = async (gameName) => {
     if (!response.ok) {
       throw new Error(data.message || 'Failed to create the game.');
     }
-
-    console.log(data);
+    return data.result.slice(14, 35);
   } catch (error) {
     console.error('Error:', error.message);
   }
 };
 
-createGame(gameData);
+const getScores = async (ID) => {
+  try {
+    const response = await fetch(`${API}/games/${ID}/scores`, {
+      method: 'GET',
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      throw new Error(data.message || 'Failed to get the score of the game.');
+    }
+
+    return data;
+  } catch (error) {
+    console.error('Error:', error.message);
+  }
+};
+
+export { createGame, getScores };
