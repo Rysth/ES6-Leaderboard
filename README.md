@@ -56,7 +56,7 @@
 
 ### Take a Look
 
-- [Live Demo Link](https://rysth.github.io/ES6-Learderboard/)
+- [Live Demo Link](https://rysth.github.io/ES6-Leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
