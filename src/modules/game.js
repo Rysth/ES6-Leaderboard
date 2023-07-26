@@ -18,7 +18,7 @@ const createGame = async (gameName) => {
 
     return data.result.slice(14, 35);
   } catch (error) {
-    console.error('Error:', error.message);
+    throw new Error(`Error: ${error.message}`);
   }
 };
 
@@ -36,7 +36,7 @@ const getScores = async (ID) => {
 
     return data;
   } catch (error) {
-    console.error('Error:', error.message);
+    throw new Error(`Error: ${error.message}`);
   }
 };
 
@@ -58,7 +58,7 @@ const setScore = async (ID, newName, newScore) => {
 
     return data;
   } catch (error) {
-    console.error('Error:', error.message);
+    throw new Error(`Error: ${error.message}`);
   }
 };
 

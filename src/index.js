@@ -14,8 +14,7 @@ btnRefresh.addEventListener('click', async () => {
     userList.innerHTML = result
       .map((element, index) => {
         const value = index + 1;
-        const listItemClass =
-          value % 2 === 0 && index > 0 ? 'list-item list-item-accent' : 'list-item';
+        const listItemClass = value % 2 === 0 && index > 0 ? 'list-item list-item-accent' : 'list-item';
         return `<li class="${listItemClass}">${element.user}: ${element.score}</li>`;
       })
       .join('');
