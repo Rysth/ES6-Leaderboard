@@ -15,6 +15,7 @@ const createGame = async (gameName) => {
     if (!response.ok) {
       throw new Error(data.message || 'Failed to create the game.');
     }
+
     return data.result.slice(14, 35);
   } catch (error) {
     console.error('Error:', error.message);
@@ -30,7 +31,7 @@ const getScores = async (ID) => {
     const data = await response.json();
 
     if (!response.ok) {
-      throw new Error(data.message || 'Failed to get the score of the game.');
+      throw new Error(data.message || 'Failed to get the scores of the game.');
     }
 
     return data;
@@ -39,4 +40,26 @@ const getScores = async (ID) => {
   }
 };
 
-export { createGame, getScores };
+const setScore = async (ID, newName, newScore) => {
+  try {
+    const response = await fetch(`${API}/games/${ID}/scores`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ user: newName, score: newScore }),
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      throw new Error(data.message || 'Failed to create a new score.');
+    }
+
+    return data;
+  } catch (error) {
+    console.error('Error:', error.message);
+  }
+};
+
+export { createGame, getScores, setScore };

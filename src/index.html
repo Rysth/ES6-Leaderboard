@@ -38,7 +38,7 @@
             <header class="header">
               <h2 class="h2">Add your Score</h2>
             </header>
-            <form action="" class="form">
+            <form id="form" action="" class="form">
               <div class="form-item">
                 <label for="name" hidden>Name</label>
                 <input
@@ -47,20 +47,26 @@
                   placeholder="Your name"
                   name="name"
                   id="name"
+                  required
                 />
               </div>
               <div class="form-item">
                 <label for="score" hidden>Score</label>
                 <input
                   class="form-input"
-                  type="text"
+                  type="number"
                   placeholder="Your score"
                   name="score"
                   id="score"
+                  required
                 />
               </div>
               <div class="form-item">
-                <button class="btn btn-primary btn-submit" type="submit">
+                <button
+                  id="btn-submit"
+                  class="btn btn-primary btn-submit"
+                  type="submit"
+                >
                   Submit
                 </button>
               </div>
