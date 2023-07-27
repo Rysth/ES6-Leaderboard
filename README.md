@@ -56,6 +56,8 @@
 
 ### Take a Look
 
+<img class="image" loading="lazy" src="./src/images/preview.png" alt="Preview Image 1">
+
 - [Live Demo Link](https://rysth.github.io/ES6-Leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
