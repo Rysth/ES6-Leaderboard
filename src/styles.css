@@ -1,10 +1,9 @@
 :root {
   --CL-primary-blue: #2e3191;
   --CL-primary-dark-blue: #2a2977;
-
   --CL-neutral-black: #000;
-  --CL-neutral-white: #ffffff;
-  --CL-neutral-gray: #d8d8d8;
+  --CL-neutral-white: #fff;
+  --CL-neutral-gray: #6afa82;
 }
 
 *,
@@ -97,7 +96,7 @@ label {
 }
 
 .btn-primary:hover {
-  box-shadow: 4px 4px 0px var(--CL-neutral-white);
+  box-shadow: 4px 4px 0 var(--CL-neutral-white);
 }
 
 .btn-submit {
@@ -111,6 +110,10 @@ label {
 }
 
 /* NavBar */
+
+.navbar {
+  display: none;
+}
 
 .nav-list {
   list-style: none;
@@ -158,6 +161,8 @@ label {
 .list-item {
   padding: 0.5em 1em;
   font-size: 1rem;
+  background-color: var(--CL-neutral-gray);
+  color: var(--CL-neutral-black);
 }
 
 .list-item-accent {
@@ -193,6 +198,11 @@ label {
 @media (min-width: 768px) {
   .grid-two-cols {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Navbar */
+  .navbar {
+    display: unset;
   }
 
   /* Flex */
