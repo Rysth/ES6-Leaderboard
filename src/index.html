@@ -5,11 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RysthCraft | ES6 | Leaderboard Application</title>
     <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <h1 class="h1">Leaderboard</h1>
+    <header class="header bg-blue">
+      <div class="container flex-system">
+        <h1 class="h1">Leaderboard RysthCraft</h1>
+        <nav class="navbar">
+          <ul class="nav-list flex-system gap-3">
+            <li class="nav-item flex-system gap-1">
+              <i class="fa-brands fa-github nav-icon"></i>
+              <a
+                href="https://github.com/Rysth"
+                class="nav-link"
+                target="_blank"
+                rel="noopener"
+                >GitHub</a
+              >
+            </li>
+            <li class="nav-item flex-system gap-1">
+              <i class="fa-brands fa-linkedin nav-icon"></i>
+              <a
+                href="https://www.linkedin.com/in/john-rysthcraft/"
+                class="nav-link"
+                target="_blank"
+                rel="noopener"
+                >Linkedin</a
+              >
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
     <main class="main">
@@ -50,6 +81,7 @@
                   placeholder="Your score"
                   name="score"
                   id="score"
+                  min="0"
                   required
                 />
               </div>
